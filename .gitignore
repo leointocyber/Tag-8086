@@ -1,0 +1,30 @@
+# Build artifacts
+*.exe
+*.obj
+*.map
+*.bin
+*.hex
+
+# DOSBox
+*.conf
+dosbox*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Allow toolchain binaries in 8086/ and the built game
+!8086/*.EXE
+!8086/*.COM
+!Tag.exe
+
+# Release artifacts
+dist/
+
+# IDE/Editor
+.claude/
